@@ -1,0 +1,55 @@
+data_index,model,n_folds,score,score_mean,score_std
+base_with_full_m,K-nn,3.0,neg_mean_squared_error,1.276450575683519,0.3250251910982787
+base_with_full_m,Ridge,3.0,neg_mean_squared_error,1.1274566942058317,0.18549317147360456
+base_with_full_m,ElasticNet,3.0,neg_mean_squared_error,1.0908548294000913,0.2512694862827133
+base_with_full_m,RandomForestRegressor,3.0,neg_mean_squared_error,1.4353169925871068,0.680723183433252
+base_with_full_m,MultiO/P GBR,3.0,neg_mean_squared_error,1.0972929047685158,0.28056302497651153
+base_with_full_m,MultiO/P AdaB,3.0,neg_mean_squared_error,1.1868617800992731,0.3413544685398239
+base_without_m,K-nn,3.0,neg_mean_squared_error,0.7666792739123739,0.21370191885868142
+base_without_m,Ridge,3.0,neg_mean_squared_error,0.5068886219058938,0.051873774766577625
+base_without_m,ElasticNet,3.0,neg_mean_squared_error,1.0908548294000913,0.2512694862827133
+base_without_m,RandomForestRegressor,3.0,neg_mean_squared_error,0.8652232832248771,0.10856720112743609
+base_without_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.9026767172576466,0.22218302352356945
+base_without_m,MultiO/P AdaB,3.0,neg_mean_squared_error,0.9347156915169689,0.15050159271657865
+base_with_reduced_m,K-nn,3.0,neg_mean_squared_error,0.9041666491226573,0.26798091465316787
+base_with_reduced_m,Ridge,3.0,neg_mean_squared_error,1.0153303994655334,0.1800620835870537
+base_with_reduced_m,ElasticNet,3.0,neg_mean_squared_error,0.8653217923438182,0.2806483434473187
+base_with_reduced_m,RandomForestRegressor,3.0,neg_mean_squared_error,0.9977244981229418,0.3653862849163835
+base_with_reduced_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.9245450101215993,0.2446103563732335
+base_with_reduced_m,MultiO/P AdaB,3.0,neg_mean_squared_error,0.9537258225077777,0.17710477904137473
+minmax_scaled_base_with_full_m,K-nn,3.0,neg_mean_squared_error,1.2960866999626177,0.23563510647170166
+minmax_scaled_base_with_full_m,Ridge,3.0,neg_mean_squared_error,1.0742448911269882,0.16073736527286356
+minmax_scaled_base_with_full_m,ElasticNet,3.0,neg_mean_squared_error,1.093254858477471,0.25653204858673145
+minmax_scaled_base_with_full_m,RandomForestRegressor,3.0,neg_mean_squared_error,1.4572497843157726,0.7128204390350413
+minmax_scaled_base_with_full_m,MultiO/P GBR,3.0,neg_mean_squared_error,1.0869763464262616,0.2801441393249183
+minmax_scaled_base_with_full_m,MultiO/P AdaB,3.0,neg_mean_squared_error,1.422481653262433,0.4590581714376345
+standard_scaled_base_with_full_m,K-nn,3.0,neg_mean_squared_error,1.3242017397982635,0.1949937562589987
+standard_scaled_base_with_full_m,Ridge,3.0,neg_mean_squared_error,1.1608001947365094,0.21956253082511384
+standard_scaled_base_with_full_m,ElasticNet,3.0,neg_mean_squared_error,1.091257795663172,0.2539096032208068
+standard_scaled_base_with_full_m,RandomForestRegressor,3.0,neg_mean_squared_error,1.4672135334862295,0.7220925657155123
+standard_scaled_base_with_full_m,MultiO/P GBR,3.0,neg_mean_squared_error,1.0589391757596014,0.26049823891292956
+standard_scaled_base_with_full_m,MultiO/P AdaB,3.0,neg_mean_squared_error,1.8864055538587257,1.1573844419113564
+minmax_scaled_base_without_m,K-nn,3.0,neg_mean_squared_error,0.7160897392193876,0.2042786873193251
+minmax_scaled_base_without_m,Ridge,3.0,neg_mean_squared_error,0.4795368326469573,0.04676596372084991
+minmax_scaled_base_without_m,ElasticNet,3.0,neg_mean_squared_error,1.093254858477471,0.25653204858673145
+minmax_scaled_base_without_m,RandomForestRegressor,3.0,neg_mean_squared_error,0.8999573334922871,0.10164745387681388
+minmax_scaled_base_without_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.8977927081885215,0.23130691556892563
+minmax_scaled_base_without_m,MultiO/P AdaB,3.0,neg_mean_squared_error,0.9078063317797067,0.16690861893334336
+standard_scaled_base_without_m,K-nn,3.0,neg_mean_squared_error,0.7217880289145567,0.19251448659144277
+standard_scaled_base_without_m,Ridge,3.0,neg_mean_squared_error,0.5795109460055561,0.023263897505237743
+standard_scaled_base_without_m,ElasticNet,3.0,neg_mean_squared_error,0.9972680255085352,0.24456592216472542
+standard_scaled_base_without_m,RandomForestRegressor,3.0,neg_mean_squared_error,0.8925351429347114,0.11961195622781605
+standard_scaled_base_without_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.8974023192080937,0.2186172645131939
+standard_scaled_base_without_m,MultiO/P AdaB,3.0,neg_mean_squared_error,0.9034679986917528,0.13026171253440538
+minmax_scaled_base_with_reduced_m,K-nn,3.0,neg_mean_squared_error,1.0272151012122137,0.2907933922081933
+minmax_scaled_base_with_reduced_m,Ridge,3.0,neg_mean_squared_error,0.906099303493943,0.12700091545455625
+minmax_scaled_base_with_reduced_m,ElasticNet,3.0,neg_mean_squared_error,1.093254858477471,0.25653204858673145
+minmax_scaled_base_with_reduced_m,RandomForestRegressor,3.0,neg_mean_squared_error,1.0513425604835334,0.38219501705261955
+minmax_scaled_base_with_reduced_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.9374585081295147,0.24963330883697699
+minmax_scaled_base_with_reduced_m,MultiO/P AdaB,3.0,neg_mean_squared_error,0.9552814581949617,0.2497848576560599
+standard_scaled_base_with_reduced_m,K-nn,3.0,neg_mean_squared_error,0.9847841257001496,0.28059409272736285
+standard_scaled_base_with_reduced_m,Ridge,3.0,neg_mean_squared_error,1.0489440684048765,0.20490988198369806
+standard_scaled_base_with_reduced_m,ElasticNet,3.0,neg_mean_squared_error,1.0674391230989084,0.2488238960223199
+standard_scaled_base_with_reduced_m,RandomForestRegressor,3.0,neg_mean_squared_error,1.0302171238835331,0.39720076324800135
+standard_scaled_base_with_reduced_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.9393666269242879,0.250391092789982
+standard_scaled_base_with_reduced_m,MultiO/P AdaB,3.0,neg_mean_squared_error,1.0558374775547348,0.28223765028322007

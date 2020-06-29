@@ -1,0 +1,19 @@
+data_index,model,n_folds,score,score_mean,score_std
+minmax_scaled_preprocessed,Ridge,3.0,neg_mean_squared_error,0.47108147671451545,0.045431805458219454
+preprocessed,Ridge,3.0,neg_mean_squared_error,0.5011203375964403,0.05100975985211817
+standard_scaled_preprocessed,Ridge,3.0,neg_mean_squared_error,0.5663724347268134,0.0012745511725812536
+minmax_scaled_preprocessed,K-nn,3.0,neg_mean_squared_error,0.7008048441516576,0.19176726857154025
+standard_scaled_preprocessed,RegChain K-nn,3.0,neg_mean_squared_error,0.7011858999667421,0.18113897109382404
+standard_scaled_preprocessed,K-nn,3.0,neg_mean_squared_error,0.7038255571013566,0.1812899625125845
+minmax_scaled_preprocessed,RegChain K-nn,3.0,neg_mean_squared_error,0.7073901320211751,0.19576499894411903
+preprocessed,RegChain K-nn,3.0,neg_mean_squared_error,0.8010990565702922,0.22664826922073744
+preprocessed,K-nn,3.0,neg_mean_squared_error,0.8086706186305976,0.22120781409329768
+minmax_scaled_preprocessed,MultiO/P AdaB,3.0,neg_mean_squared_error,0.8443172025783294,0.1396892573270994
+preprocessed,MultiO/P AdaB,3.0,neg_mean_squared_error,0.9472526428153764,0.20199506300840606
+standard_scaled_preprocessed,ElasticNet,3.0,neg_mean_squared_error,0.9668573310861192,0.2318793390261814
+standard_scaled_preprocessed,MultiO/P AdaB,3.0,neg_mean_squared_error,0.9836961566833983,0.16468878004705273
+preprocessed,ElasticNet,3.0,neg_mean_squared_error,1.040722035543035,0.23757413377360673
+minmax_scaled_preprocessed,ElasticNet,3.0,neg_mean_squared_error,1.0626659026711052,0.23665716972382336
+preprocessed,Lasso,3.0,neg_mean_squared_error,1.0626659026711052,0.23665716972382336
+standard_scaled_preprocessed,Lasso,3.0,neg_mean_squared_error,1.0626659026711052,0.23665716972382336
+minmax_scaled_preprocessed,Lasso,3.0,neg_mean_squared_error,1.0626659026711052,0.23665716972382336

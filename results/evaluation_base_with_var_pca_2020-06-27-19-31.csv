@@ -1,0 +1,37 @@
+data_index,model,n_folds,score,score_mean,score_std
+minmax_scaled_base_without_m,Ridge,3.0,neg_mean_squared_error,0.4795368326469573,0.04676596372084991
+base_without_m,Ridge,3.0,neg_mean_squared_error,0.5068886219058938,0.051873774766577625
+standard_scaled_base_without_m,Ridge,3.0,neg_mean_squared_error,0.5795109460055561,0.023263897505237743
+minmax_scaled_base_without_m,K-nn,3.0,neg_mean_squared_error,0.7160897392193876,0.2042786873193251
+minmax_scaled_base_without_m,RegChain K-nn,3.0,neg_mean_squared_error,0.7198872039802001,0.20456551020967167
+standard_scaled_base_without_m,K-nn,3.0,neg_mean_squared_error,0.7217880289145567,0.19251448659144277
+standard_scaled_base_without_m,RegChain K-nn,3.0,neg_mean_squared_error,0.7232706098336231,0.19359477688682444
+base_without_m,RegChain K-nn,3.0,neg_mean_squared_error,0.7642311190346723,0.21371969540617747
+base_without_m,K-nn,3.0,neg_mean_squared_error,0.7666792739123739,0.21370191885868142
+base_without_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.888414281773457,0.20557018973631788
+base_with_reduced_var_m,RegChain K-nn,3.0,neg_mean_squared_error,0.8911627884965077,0.26034205245499953
+base_with_reduced_m,RegChain K-nn,3.0,neg_mean_squared_error,0.8911627884965077,0.26034205245499953
+minmax_scaled_base_without_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.8953701388053067,0.22139750075326556
+base_with_reduced_var_m,K-nn,3.0,neg_mean_squared_error,0.9041666491226573,0.26798091465316787
+base_with_reduced_m,K-nn,3.0,neg_mean_squared_error,0.9041666491226573,0.26798091465316787
+minmax_scaled_base_with_reduced_var_m,Ridge,3.0,neg_mean_squared_error,0.906099303493943,0.12700091545455625
+minmax_scaled_base_with_reduced_m,Ridge,3.0,neg_mean_squared_error,0.906099303493943,0.12700091545455625
+standard_scaled_base_without_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.9099105944512912,0.21255900611960843
+standard_scaled_base_with_reduced_var_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.930493642225649,0.24742134474964855
+minmax_scaled_base_with_reduced_var_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.9339330559510511,0.24835718026181589
+standard_scaled_base_with_reduced_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.9344304672595988,0.24779754011541696
+base_with_reduced_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.9361498544192863,0.24889946287925835
+minmax_scaled_base_with_reduced_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.937287113209981,0.2518987349992608
+base_with_reduced_var_m,MultiO/P GBR,3.0,neg_mean_squared_error,0.9386548519308536,0.25181393604512026
+standard_scaled_base_with_reduced_var_m,K-nn,3.0,neg_mean_squared_error,0.9847841257001496,0.28059409272736285
+standard_scaled_base_with_reduced_m,K-nn,3.0,neg_mean_squared_error,0.9847841257001496,0.28059409272736285
+standard_scaled_base_with_reduced_m,RegChain K-nn,3.0,neg_mean_squared_error,1.0107917811665936,0.2851408712887401
+standard_scaled_base_with_reduced_var_m,RegChain K-nn,3.0,neg_mean_squared_error,1.0107917811665936,0.2851408712887401
+base_with_reduced_m,Ridge,3.0,neg_mean_squared_error,1.0153303994655334,0.1800620835870537
+base_with_reduced_var_m,Ridge,3.0,neg_mean_squared_error,1.0153303994655334,0.1800620835870537
+minmax_scaled_base_with_reduced_var_m,K-nn,3.0,neg_mean_squared_error,1.0272151012122137,0.2907933922081933
+minmax_scaled_base_with_reduced_m,K-nn,3.0,neg_mean_squared_error,1.0272151012122137,0.2907933922081933
+standard_scaled_base_with_reduced_var_m,Ridge,3.0,neg_mean_squared_error,1.0489440684048765,0.20490988198369806
+standard_scaled_base_with_reduced_m,Ridge,3.0,neg_mean_squared_error,1.0489440684048765,0.20490988198369806
+minmax_scaled_base_with_reduced_m,RegChain K-nn,3.0,neg_mean_squared_error,1.0758927227231792,0.23730626309724043
+minmax_scaled_base_with_reduced_var_m,RegChain K-nn,3.0,neg_mean_squared_error,1.0758927227231792,0.23730626309724043

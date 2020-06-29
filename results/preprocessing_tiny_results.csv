@@ -1,0 +1,13 @@
+data_index,score_mean
+minmax_scaled_spatial_comp+m,0.4211787370187154
+spatial_comp+m,0.4412569861850864
+minmax_scaled_full_wo_co2,0.4442193092312053
+minmax_scaled_full,0.4739285936256697
+full,0.4761423657137604
+full_wo_co2,0.4833021398152601
+minmax_scaled_high_var_x,0.5465097707708494
+full_components,0.5993443366665517
+high_var_x,0.614451320805377
+minmax_scaled_full_components,0.6153849147951971
+spatial+m_comp,0.6252795641262727
+minmax_scaled_spatial+m_comp,0.6699851354939613

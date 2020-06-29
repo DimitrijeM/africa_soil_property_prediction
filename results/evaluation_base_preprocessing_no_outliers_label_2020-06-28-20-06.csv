@@ -1,0 +1,49 @@
+data_index,model,n_folds,score,score_mean,score_std
+minmax_scaled_spatial_comp+m,Ridge,3.0,neg_mean_squared_error,0.2801988144888584,0.02332289416611587
+minmax_scaled_full,Ridge,3.0,neg_mean_squared_error,0.2804286894566445,0.025242381879203624
+minmax_scaled_full_wo_co2,Ridge,3.0,neg_mean_squared_error,0.2810129408563125,0.02494707090019634
+spatial_comp+m,Ridge,3.0,neg_mean_squared_error,0.2879949111811702,0.02419136323730524
+full,Ridge,3.0,neg_mean_squared_error,0.3009048337475703,0.036073215779458524
+full_wo_co2,Ridge,3.0,neg_mean_squared_error,0.301555403760581,0.03577351498769074
+minmax_scaled_high_var_x,Ridge,3.0,neg_mean_squared_error,0.4495275554335712,0.013399877449279434
+minmax_scaled_full_components,Ridge,3.0,neg_mean_squared_error,0.466561363193392,0.06935201379715202
+high_var_x,Ridge,3.0,neg_mean_squared_error,0.4688463102536013,0.0343047264426887
+minmax_scaled_spatial_comp+m,MultiO/P AdaB,3.0,neg_mean_squared_error,0.4715804734733953,0.06524423275423447
+full_components,Ridge,3.0,neg_mean_squared_error,0.47748016772262014,0.06844797620360837
+minmax_scaled_full,K-nn,3.0,neg_mean_squared_error,0.511653607073203,0.12768556637124043
+minmax_scaled_spatial_comp+m,K-nn,3.0,neg_mean_squared_error,0.5117569230938924,0.12225180420726535
+minmax_scaled_full_wo_co2,K-nn,3.0,neg_mean_squared_error,0.5129606999933486,0.1281166504679776
+spatial_comp+m,K-nn,3.0,neg_mean_squared_error,0.5134307522328174,0.12669684394423494
+spatial_comp+m,MultiO/P AdaB,3.0,neg_mean_squared_error,0.5223452951412716,0.029139341912779768
+minmax_scaled_spatial+m_comp,Ridge,3.0,neg_mean_squared_error,0.5315778914874089,0.02055984971234312
+minmax_scaled_full_wo_co2,MultiO/P AdaB,3.0,neg_mean_squared_error,0.5386842868439549,0.12474892680591176
+full,K-nn,3.0,neg_mean_squared_error,0.5421933041960402,0.15474103528912206
+full_wo_co2,K-nn,3.0,neg_mean_squared_error,0.5438833812051976,0.1554512813935822
+minmax_scaled_high_var_x,K-nn,3.0,neg_mean_squared_error,0.5710524423127418,0.11796898742651042
+full,MultiO/P AdaB,3.0,neg_mean_squared_error,0.5853289591976707,0.09051756190336505
+spatial+m_comp,Ridge,3.0,neg_mean_squared_error,0.5875993102251021,0.04793529580373486
+full_wo_co2,MultiO/P AdaB,3.0,neg_mean_squared_error,0.6044676344800017,0.12505449897863222
+spatial+m_comp,K-nn,3.0,neg_mean_squared_error,0.6066559004384938,0.18462015242978072
+high_var_x,K-nn,3.0,neg_mean_squared_error,0.6150736949241418,0.1461285247663747
+minmax_scaled_high_var_x,MultiO/P AdaB,3.0,neg_mean_squared_error,0.6189493145662351,0.16837668134639516
+minmax_scaled_full_components,K-nn,3.0,neg_mean_squared_error,0.6251883959827423,0.09997633143422335
+minmax_scaled_full,MultiO/P AdaB,3.0,neg_mean_squared_error,0.6297034843471616,0.17519852996686586
+full_components,K-nn,3.0,neg_mean_squared_error,0.6351631805231742,0.18419535645170387
+spatial+m_comp,MultiO/P AdaB,3.0,neg_mean_squared_error,0.6815834817152222,0.19678779050891246
+full_components,MultiO/P AdaB,3.0,neg_mean_squared_error,0.6853896617538608,0.06659531479148947
+minmax_scaled_spatial+m_comp,MultiO/P AdaB,3.0,neg_mean_squared_error,0.7361579705740359,0.16023368108624736
+minmax_scaled_spatial+m_comp,K-nn,3.0,neg_mean_squared_error,0.742219544420439,0.1730845936197153
+minmax_scaled_full_components,MultiO/P AdaB,3.0,neg_mean_squared_error,0.7544049852094568,0.0963459656000353
+high_var_x,MultiO/P AdaB,3.0,neg_mean_squared_error,0.759433957238388,0.2146261725930898
+minmax_scaled_full_components,Decision Tree Regressor,3.0,neg_mean_squared_error,0.808840178346232,0.0965176236196936
+minmax_scaled_full,Decision Tree Regressor,3.0,neg_mean_squared_error,0.81887846707001,0.19614833577699292
+minmax_scaled_full_wo_co2,Decision Tree Regressor,3.0,neg_mean_squared_error,0.8362704227674508,0.20777449703229509
+full,Decision Tree Regressor,3.0,neg_mean_squared_error,0.8384082618216772,0.21236927220674517
+minmax_scaled_high_var_x,Decision Tree Regressor,3.0,neg_mean_squared_error,0.8422915178393104,0.22560891415782977
+high_var_x,Decision Tree Regressor,3.0,neg_mean_squared_error,0.85535075506965,0.3470046851056474
+full_components,Decision Tree Regressor,3.0,neg_mean_squared_error,0.861086768459114,0.15357477833685412
+spatial_comp+m,Decision Tree Regressor,3.0,neg_mean_squared_error,0.9240217640259644,0.20913751830468089
+minmax_scaled_spatial_comp+m,Decision Tree Regressor,3.0,neg_mean_squared_error,0.9268081224580369,0.19814290581588118
+minmax_scaled_spatial+m_comp,Decision Tree Regressor,3.0,neg_mean_squared_error,0.9321958386248864,0.0890118734860157
+full_wo_co2,Decision Tree Regressor,3.0,neg_mean_squared_error,0.9391897901893579,0.1383183909104296
+spatial+m_comp,Decision Tree Regressor,3.0,neg_mean_squared_error,1.0130650002822088,0.2068158396050572

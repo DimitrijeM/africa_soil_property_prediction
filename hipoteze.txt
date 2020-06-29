@@ -1,0 +1,5 @@
+Hipoteza 1: Uklanjanje spektra m2379.76-m2352.76 neće smanjiti tačnost modela.
+Hipotezu 2: Skaliranje atributa će imati uticaj na poboljšanje algoritma.
+Hipoteza 3: Uklanjanje izuzetaka može pomoći izgradnji tačnijeg modela.
+Hipoteza 4: Učenje modela nad glavnim komponentama datih atributa povećaće se tačnost.
+Hipoteza 5: Učenje zajedničkog modela višeciljne regresije će dati bolje rezultate predviđanja.
