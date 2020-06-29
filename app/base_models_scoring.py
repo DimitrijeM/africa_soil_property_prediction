@@ -1,18 +1,20 @@
+from datetime import datetime
+
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import AdaBoostRegressor
-from sklearn.linear_model import ElasticNet, Lasso, Ridge, LinearRegression
+from sklearn.ensemble import ExtraTreesRegressor, GradientBoostingRegressor, RandomForestRegressor
+from sklearn.linear_model import ElasticNet, Lasso, Ridge
 from sklearn.model_selection import train_test_split
 from sklearn.multioutput import MultiOutputRegressor
 from sklearn.multioutput import RegressorChain
 from sklearn.neighbors import KNeighborsRegressor
-from datetime import datetime
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
-from sklearn.ensemble import ExtraTreesRegressor, GradientBoostingRegressor, RandomForestRegressor
+from sklearn.preprocessing import MinMaxScaler
 from sklearn.tree import DecisionTreeRegressor
-from app import remove_m_co2_spectar, remove_rows_with_outlier, transform_m_columns_pca,\
-    append_scaled_data, evaluate_preprocessed_data, mean_columnwise_root_mse_scorer
+
+from app import remove_m_co2_spectar, remove_rows_with_outlier, transform_m_columns_pca, \
+    mean_columnwise_root_mse_scorer
 
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)

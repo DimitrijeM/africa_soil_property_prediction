@@ -1,35 +1,19 @@
-import matplotlib.pyplot as plt
+from datetime import datetime
+
 import numpy as np
 import pandas as pd
-import seaborn as sns
+from scipy import stats
 from sklearn.decomposition import PCA
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import AdaBoostRegressor
+from sklearn.feature_selection import VarianceThreshold
+from sklearn.linear_model import ElasticNet
+from sklearn.linear_model import Ridge
 from sklearn.model_selection import cross_val_score
 from sklearn.multioutput import MultiOutputRegressor
 from sklearn.multioutput import RegressorChain
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
-from sklearn.svm import LinearSVR
-from sklearn.tree import DecisionTreeRegressor, ExtraTreeRegressor
-from sklearn.neural_network import MLPRegressor
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.linear_model import Lasso
-from sklearn.linear_model import ElasticNet
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import Ridge
-
-from sklearn.ensemble import ExtraTreesRegressor
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.ensemble import AdaBoostRegressor
-from sklearn.feature_selection import VarianceThreshold
-
 from sklearn.tree import DecisionTreeRegressor
-
-from sklearn.multioutput import MultiOutputRegressor
-from datetime import datetime
-from scipy import stats
 
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
